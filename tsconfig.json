@@ -6,7 +6,7 @@
     // Module system
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
+    "allowImportingTsExtensions": false,
     "resolveJsonModule": true,
     
     // Output
@@ -38,7 +38,7 @@
     "jsx": "preserve",
     
     // Types
-    "types": ["node"]
+    "types": ["node", "vitest/globals"]
   },
   "include": [
     "src/**/*"
