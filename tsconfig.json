@@ -1,8 +1,7 @@
 {
   "compilerOptions": {
     // Modern target
-    "target": "ES2022",
-    "lib": ["ES2022"],
+    "target": "esnext",
     
     // Module system
     "module": "ESNext",
@@ -39,7 +38,7 @@
     "jsx": "preserve",
     
     // Types
-    "types": []
+    "types": ["node"]
   },
   "include": [
     "src/**/*"
